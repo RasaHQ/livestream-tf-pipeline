@@ -11,7 +11,7 @@ Bot: Sure. There is a 'Tennis in Central London' meetup happening in London. The
 User: Yes, please.
 Bot: Done! You have joined the meetup. Would you like to attend their nearest event?
 User: Yes. Can you also tell me how can I get to the venue from Baker Street?
-Bot: All done. I have booked you a spot at 'Social Tennis' which is happening at 2018-07-05. Here are the directions for getting to the venue using a public transport: Walk to Baker Street Underground. Catch a Bakerloo line to Piccadilly Circus. Change to Piccadilly line to Knightsbridge. Walk to Hyde Park.
+Bot: All done. I have booked you a spot at 'Social Tennis' which is happening on 2018-07-05. Here are the directions for getting to the venue using a public transport: Walk to Baker Street Underground. Catch a Bakerloo line to Piccadilly Circus. Change to Piccadilly line to Knightsbridge. Walk to Hyde Park.
 User: Thanks a lot! Goodbye.
 Bot: You are very welcome!
 Bot: Bye bye.

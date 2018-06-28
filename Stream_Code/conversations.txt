@@ -6,9 +6,9 @@ B: There is a Sunday-Yoga-at-Volkspark-Friedrichshain meetup happening in Berlin
 U: Yes, sure
 B: Done! You have joined the meetup. Would you like to attend their nearest event?
 U: Yes
-B: All done. I have booked you a spot at 'Sunday Yoga' which is happening at 2018-07-01.
+B: All done. I have booked you a spot at 'Sunday Yoga' which is happening on 2018-07-01.
 U: Can you also suggest me how can I get to the venue from Alexanderplatz 15?
-B: Sure. These are the directions: walk to Alexanderplatz. Catch a Bus 200 Prenzlauer Berg, Michelangelostr. Get off at Prenzlauer Berg, Michelangelostr. Walk to Volkspark Friedrichshain.
+B: Sure. Here are the directions for getting to the venue using a public transport: walk to Alexanderplatz. Catch a Bus 200 Prenzlauer Berg, Michelangelostr. Get off at Prenzlauer Berg, Michelangelostr. Walk to Volkspark Friedrichshain.
 U: Thank you.
 B: You are very welcome!
 B: Goodbye.
@@ -21,8 +21,7 @@ B: Sure. There is a 'Tennis in Central London' meetup happening in London. They 
 U: Yes, please.
 B: Done! You have joined the meetup. Would you like to attend their nearest event?
 U: Yes. Can you also tell me how can I get to the venue from Baker Street?
-B: All done. I have booked you a spot at 'Social Tennis' which is happening at 2018-07-05. These are 
-directions to get to the venue: Walk to Baker Street Underground. Catch a Bakerloo line to Piccadilly Circus. Change to Piccadilly line to Knightsbridge. Walk to Hyde Park.
+B: All done. I have booked you a spot at 'Social Tennis' which is happening on 2018-07-05. Here are the directions for getting to the venue using a public transport: Walk to Baker Street Underground. Catch a Bakerloo line to Piccadilly Circus. Change to Piccadilly line to Knightsbridge. Walk to Hyde Park.
 U: Thanks a lot! Goodbye.
 B: You are very welcome!
 B: Bye bye.
