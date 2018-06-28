@@ -1,0 +1,53 @@
+slots:
+  location:
+    type: text
+  type:
+    type: text
+  origin:
+    type: text
+  meetup_id:
+    type: unfeaturized
+  next_event_id:
+    type: unfeaturized
+  lat:
+    type: unfeaturized
+  lon:
+    type: unfeaturized
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - thanks
+  - thanks+goodbye
+  - meetup
+  - ask_transport
+  - affirm+ask_transport
+  - deny
+
+entities:
+  - origin
+  - type
+  - location
+
+templates:
+  utter_greet:
+    - "Hey, how can I help you?"
+  utter_goodbye:
+    - "Talk to you later!"
+    - "Goodbye :("
+    - "Bye!"
+    - "Have a great day!"
+  utter_thanks:
+    - "You are very welcome."
+    - "Glad I could help!"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_thanks
+  - actions.ActionMeetup
+  - actions.ActionJoinMeetup
+  - actions.ActionJoinEvent
+  - actions.ActionSuggestRoute
+  - actions.ActionSlotReset

@@ -1,0 +1,28 @@
+## Story_01
+U: Hey.
+B: Hey, how can I help you?
+U: I am new to Berlin. Can you suggest any cool sports meetups I could attend?
+B: There is a Sunday-Yoga-at-Volkspark-Friedrichshain meetup happening in Berlin. They are having an event called 'Sunday Yoga' happening on 2018-07-01. Would you like to join the meetup?
+U: Yes, sure
+B: Done! You have joined the meetup. Would you like to attend their nearest event?
+U: Yes
+B: All done. I have booked you a spot at 'Sunday Yoga' which is happening at 2018-07-01.
+U: Can you also suggest me how can I get to the venue from Alexanderplatz 15?
+B: Sure. These are the directions: walk to Alexanderplatz. Catch a Bus 200 Prenzlauer Berg, Michelangelostr. Get off at Prenzlauer Berg, Michelangelostr. Walk to Volkspark Friedrichshain.
+U: Thank you.
+B: You are very welcome!
+B: Goodbye.
+
+## Story_02
+U: Hello.
+B: Hey, how can I help you?
+U: I am new to London and I am looking form fitness meetups to attend. Any suggestions?
+B: Sure. There is a 'Tennis in Central London' meetup happening in London. They are having an event 'Social Tennis' on 2018-07-05. Would you like to join the meetup?
+U: Yes, please.
+B: Done! You have joined the meetup. Would you like to attend their nearest event?
+U: Yes. Can you also tell me how can I get to the venue from Baker Street?
+B: All done. I have booked you a spot at 'Social Tennis' which is happening at 2018-07-05. These are 
+directions to get to the venue: Walk to Baker Street Underground. Catch a Bakerloo line to Piccadilly Circus. Change to Piccadilly line to Knightsbridge. Walk to Hyde Park.
+U: Thanks a lot! Goodbye.
+B: You are very welcome!
+B: Bye bye.
