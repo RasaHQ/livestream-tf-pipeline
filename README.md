@@ -1,6 +1,6 @@
 # [Twitch Stream] Building a Meetup chatbot using Rasa Stack
 
-In release 0.12, Rasa introduced a new TensorFlow-based pipeline for NLU models. This repository contains the code which was used during our Twitch live coding stream on 28/06/2018. During the stream we built a Meetup chatbot, capable of recommending meetups to attend, make RSVPs for events and suggest the directions for public transport of how to get to the venue of the event. 
+In release 0.12, Rasa introduced a new TensorFlow-based pipeline for NLU models. This repository contains the code which was used during our Twitch live coding stream on 28/06/2018. During the stream we built a Meetup chatbot, capable of recommending meetups to attend, make RSVPs for the events and recommend public transport routes to get to the venue. The goal of building this chatbot is to demonstrate how we can use Rasa NLU TensorFlow pipeline to build intelligent chatbots which can understand multiple intents per input.
 
 
 ```text
@@ -11,8 +11,7 @@ Bot: Sure. There is a 'Tennis in Central London' meetup happening in London. The
 User: Yes, please.
 Bot: Done! You have joined the meetup. Would you like to attend their nearest event?
 User: Yes. Can you also tell me how can I get to the venue from Baker Street?
-Bot: All done. I have booked you a spot at 'Social Tennis' which is happening at 2018-07-05. These are 
-directions to get to the venue: Walk to Baker Street Underground. Catch a Bakerloo line to Piccadilly Circus. Change to Piccadilly line to Knightsbridge. Walk to Hyde Park.
+Bot: All done. I have booked you a spot at 'Social Tennis' which is happening at 2018-07-05. Here are the directions for getting to the venue using a public transport: Walk to Baker Street Underground. Catch a Bakerloo line to Piccadilly Circus. Change to Piccadilly line to Knightsbridge. Walk to Hyde Park.
 User: Thanks a lot! Goodbye.
 Bot: You are very welcome!
 Bot: Bye bye.
@@ -20,26 +19,26 @@ Bot: Bye bye.
 ```
 
 The chatbot includes live data APIs. In order to access the data yourself, you will need to get the API keys and store them as environmental variables. Below are instructions of how to do it:
-- Meetup API:
+* Meetup API:
 	1. Get the API key [here](https://secure.meetup.com/meetup_api/key/)
 	2. Copy the key, open your command line and execute:
-		- Ubuntu and Mac OS:
+		* Ubuntu and Mac OS:
 			```
 			export MEETUP_KEY=*your_key*
 			``` 
-		- Windows:		
+		* Windows:		
 			```
 			set MEETUP_KEY=*your_key* 
 			```
 
-- Google Directions API:
+* Google Directions API:
 	1. Get the API key by following the instructions written in a section [Activate the API and get an API key](https://developers.google.com/maps/documentation/directions/start)
 	2. Copy the key and in your command line execute:
-		- Ubuntu and Mac OS:
+		* Ubuntu and Mac OS:
 			```
 			export GOOGLE_KEY="your_api_key" 
 			```
-		- Windows:
+		* Windows:
 			```
 			set GOOGLE_KEY="your_api_key"
 			```
