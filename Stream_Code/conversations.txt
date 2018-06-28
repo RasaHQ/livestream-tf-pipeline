@@ -16,7 +16,7 @@ B: Goodbye.
 ## Story_02
 U: Hello.
 B: Hey, how can I help you?
-U: I am new to London and I am looking form fitness meetups to attend. Any suggestions?
+U: I am new to London and I am looking for fitness meetups to attend. Any suggestions?
 B: Sure. There is a 'Tennis in Central London' meetup happening in London. They are having an event 'Social Tennis' on 2018-07-05. Would you like to join the meetup?
 U: Yes, please.
 B: Done! You have joined the meetup. Would you like to attend their nearest event?

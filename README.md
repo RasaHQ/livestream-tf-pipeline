@@ -6,7 +6,7 @@ In release 0.12, Rasa introduced a new TensorFlow-based pipeline for NLU models.
 ```text
 User: Hello.
 Bot: Hey, how can I help you?
-User: I am new to London and I am looking form fitness meetups to attend. Any suggestions?
+User: I am new to London and I am looking for fitness meetups to attend. Any suggestions?
 Bot: Sure. There is a 'Tennis in Central London' meetup happening in London. They are having an event 'Social Tennis' on 2018-07-05. Would you like to join the meetup?
 User: Yes, please.
 Bot: Done! You have joined the meetup. Would you like to attend their nearest event?
