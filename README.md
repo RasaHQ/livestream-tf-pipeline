@@ -19,28 +19,28 @@ Bot: Bye bye.
 ```
 
 The chatbot includes live data APIs. In order to access the data yourself, you will need to get the API keys and store them as environmental variables. Below are instructions of how to do it:
-* Meetup API:
+1. Meetup API:
 	1. Get the API key [here](https://secure.meetup.com/meetup_api/key/)
 	2. Copy the key, open your command line and execute:
 		* Ubuntu and Mac OS:
-			```
-			export MEETUP_KEY=*your_key*
+			```text
+			export MEETUP_KEY=*your_api_key*
 			``` 
 		* Windows:		
-			```
-			set MEETUP_KEY=*your_key* 
+			```text
+			set MEETUP_KEY=*your_api_key* 
 			```
 
-* Google Directions API:
+1. Google Directions API:
 	1. Get the API key by following the instructions written in a section [Activate the API and get an API key](https://developers.google.com/maps/documentation/directions/start)
 	2. Copy the key and in your command line execute:
 		* Ubuntu and Mac OS:
-			```
-			export GOOGLE_KEY="your_api_key" 
+			```text
+			export GOOGLE_KEY=*your_api_key* 
 			```
 		* Windows:
-			```
-			set GOOGLE_KEY="your_api_key"
+			```text
+			set GOOGLE_KEY=*your_api_key*
 			```
 
 ## Versions of the software used in this tutorial:
