@@ -1,4 +1,4 @@
-## Generated Story -6908999705417172347
+## Generated Story 936825165865365035
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -12,11 +12,47 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -1865098426963681110
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -2612426400346640187
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 5172446233338589360
+## Generated Story -8195254761780566627
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -30,15 +66,20 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 4624496258666505045
-* meetup
+## Generated Story -906367280438115121
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-
-## Generated Story 7504029083574428946
+* affirm
+    - action_join_meetup
 * goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 651520706583931909
+## Generated Story -4277366682409541670
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -47,66 +88,50 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 7866298215026981284
-* greet
-    - utter_greet
+## Generated Story 8426134441548068843
+* meetup
+    - action_meetup
 
-## Generated Story 4873483757966939335
+## Generated Story -5143391366236858429
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -2704076569791551016
+## Generated Story 5232916272508596746
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+
+## Generated Story 3894782647229439373
+* goodbye
     - utter_goodbye
-    - action_slot_reset
 
-## Generated Story -383069807503477931
+## Generated Story -8570733327073395818
 * thanks+goodbye
     - utter_goodbye
 
-## Generated Story -4871746035224841766
+## Generated Story 8188612366723815236
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5432131631683643314
-* thanks+goodbye
+* deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -120,28 +145,12 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 3916450603495045207
+## Generated Story 2745390499857593052
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -155,13 +164,10 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -1058578308402231465
-* meetup
-    - action_meetup
+## Generated Story 7252451945260805789
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -178,10 +184,6 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -8006466188976403567
-* greet
-    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -195,12 +197,11 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -4136690899070573003
-* goodbye
+## Generated Story -2004435173842472421
+* thanks+goodbye
     - utter_goodbye
 * greet
     - utter_greet
@@ -215,11 +216,12 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -2865523320558565863
+## Generated Story 2158353764123676648
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -233,6 +235,19 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1626435152741673968
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
@@ -249,19 +264,21 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -5207078903565337929
+## Generated Story -4826828335566998893
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -275,11 +292,10 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -582726454885724598
+## Generated Story 8549055932687247997
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -308,21 +324,24 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 1340375702577532232
+## Generated Story 3846376295244520655
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -336,23 +355,12 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 4680114334336079559
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
-    - utter_thanks
+## Generated Story -9048362803217297015
+* goodbye
     - utter_goodbye
-    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -366,33 +374,46 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -5006954725025755806
+## Generated Story -8579379575230428542
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
-    - utter_thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -2707668392842982043
+## Generated Story -6687153848708552509
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -403,13 +424,15 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -2483161551848762142
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -422,55 +445,61 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 8063133511581019491
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 4594118686357596696
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -4902244677228606394
-* meetup
-    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -8760938579191541629
-* greet
-    - utter_greet
+## Generated Story 9110433106595862085
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -479,94 +508,166 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -4205158706438470169
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 4496555303601933307
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 4075185910255381954
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -3184924762777284065
+## Generated Story 4266916762431262076
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
+* deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -8085885185682868118
-* thanks+goodbye
+## Generated Story -6192795598501382001
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -1389265461516453020
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1429506040174425721
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 6112166557748840773
+## Generated Story 9059087869780254692
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -580,35 +681,50 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 6334995770091100686
+## Generated Story -7787965873345752200
+* thanks+goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
-* meetup
-    - action_meetup
+    - action_slot_reset
 
-## Generated Story -7144844088612532188
+## Generated Story -219707263675916880
+* thanks+goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -625,16 +741,19 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
 
-## Generated Story 8985429603379022644
-* thanks+goodbye
-    - utter_goodbye
-* meetup
+## Generated Story -6245874560576950135
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-
-## Generated Story -1087961982575958055
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -648,18 +767,11 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story -1323737000251841831
-* meetup
-    - action_meetup
-* meetup
-    - action_meetup
 
-## Generated Story -6583025620066499793
+## Generated Story 5271258050980369014
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -672,22 +784,24 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story -1846127270275758481
-* goodbye
-    - utter_goodbye
-* meetup
-    - action_meetup
-
-## Generated Story -8988336069144633375
 * greet
     - utter_greet
-* meetup
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -3367617889097461888
+## Generated Story 2331283528768201639
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -698,31 +812,31 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story 4766082223886177001
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
     - utter_goodbye
-* meetup
-    - action_meetup
+    - action_slot_reset
 
-## Generated Story -2061009639238845737
+## Generated Story 7000175048635010126
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -731,46 +845,45 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8774771361229514319
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-* goodbye
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -5780497829512980516
+## Generated Story 5460967402442011167
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
-* deny
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1485272817967398190
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
 * thanks+goodbye
     - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4823942653756556526
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -784,26 +897,35 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
 
-## Generated Story 3431901108101721456
-* meetup
-    - action_meetup
+## Generated Story 6683147415880588390
 * goodbye
     - utter_goodbye
-
-## Generated Story 4267446066661459801
 * greet
     - utter_greet
-* goodbye
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -6681962212347818406
+## Generated Story -4057347987659028183
 * greet
     - utter_greet
+* greet
+    - utter_greet
 * meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
     - slot{"type": "fitness"}
@@ -818,37 +940,24 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
 
-## Generated Story -8647019483112173566
+## Generated Story 5584346056030292565
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3240834509869284004
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7272052519509399168
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -865,6 +974,8 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -4981758315649197245
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -873,8 +984,7 @@
     - action_meetup
 * deny
     - utter_goodbye
-
-## Generated Story 8368074256583671595
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -888,32 +998,1259 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 9077254056105225854
+* meetup
+    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
-* deny
-    - utter_goodbye
-
-## Generated Story -1846859831576040215
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -1281032544475230923
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 2624068799622090472
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -7499773739162154945
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 8942868059631484898
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 5923294208287949326
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1848648980047547052
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -1846461113303919552
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -5929339654750929550
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 7165997871361556948
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 4159894419984668932
+* thanks+goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -150458665438819345
+* meetup
+    - action_meetup
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 53699761059118891
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -2360901739119130590
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -6045061878091553718
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1494675752103231122
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -5525719695539257254
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 5956184601849673312
+* meetup
+    - action_meetup
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 2344025853620013562
+* thanks+goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -5367725901304085394
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 4658323207160848297
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1314280050303773280
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 7156298154398810393
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -8222458452807429608
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -2501398065862694535
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -5610857461184252162
+* thanks+goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 32900727305768504
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1793170013184981315
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 8688161371339606561
+* meetup
+    - action_meetup
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1052728515952412921
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 2381748150366675879
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -8412075657410296303
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -1469182976866333235
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 3757858045272508253
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 5951519036619963884
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 4828376834155632462
+* goodbye
+    - utter_goodbye
+* meetup
+    - action_meetup
+
+## Generated Story 5947720489138780850
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 2878732252771766867
+* thanks+goodbye
+    - utter_goodbye
+* meetup
+    - action_meetup
+
+## Generated Story -1055232790504348910
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story -4120219030537398681
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story -5774244716007726090
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 6577587627353094916
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
+
+## Generated Story -4579820694406105250
+* greet
+    - utter_greet
+* meetup
+    - action_meetup
+
+## Generated Story -5599076857652430437
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 6415087132863473695
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story -4938726115864076939
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 3336109695072195382
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -6772938904170374808
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 8320497374344553032
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -6492236253665956740
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -5443846981934060153
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -7724953751049843824
+* meetup
+    - action_meetup
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -3431399685705399655
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 3903037747658762855
+* thanks+goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -1767834609658001531
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 8841896295000310232
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 665073687372060039
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+
+## Generated Story -6128556198813810191
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+
+## Generated Story -5490849479634849113
+* thanks+goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 775487441114991938
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+
+## Generated Story -8025339382581202523
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
 
-## Generated Story -7532036752449218696
+## Generated Story -4921898145400937215
 * meetup
     - action_meetup
+* greet
+    - utter_greet
+
+## Generated Story 6456651890835707893
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 7701830886494567416
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -922,26 +2259,123 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
 
-## Generated Story 5282560749657618042
+## Generated Story -8659368960580173383
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+
+## Generated Story 3875666876696155114
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+
+## Generated Story 2693046515129688513
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+
+## Generated Story -315654149155502075
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1661037604521674160
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5954826498774698007
+* thanks+goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2664997452109065202
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2865345071828791037
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1552552664576430799
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
     - utter_goodbye
 
-## Generated Story 4759989705361414133
+## Generated Story 5874565975607781780
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -952,13 +2386,17 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8471405297726639658
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -967,8 +2405,11 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
 
-## Generated Story 303198942132276871
+## Generated Story -2102697624338642302
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -977,34 +2418,102 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1018890756649686753
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
 
-## Generated Story -8622151907891237945
+## Generated Story 3242801032899012051
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8216212502990209771
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story -2783380961024360591
+* meetup
+    - action_meetup
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story -6520601604981898560
+## Generated Story 3159893779805028965
 * goodbye
+    - utter_goodbye
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story -5824653770048142920
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story -4570797684947256164
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1013,67 +2522,114 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
 
-## Generated Story -2606257540767606956
+## Generated Story -1511204616680396352
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story 3957332974187964758
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
 
-## Generated Story -4056352959759398396
+## Generated Story -6642206743791824308
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story 4958633377695187248
 * greet
     - utter_greet
+* thanks+goodbye
+    - utter_goodbye
 
-## Generated Story 6016871187725053881
+## Generated Story -4403812036575743671
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_goodbye
-* greet
-    - utter_greet
+    - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
 
-## Generated Story 8048099473211370798
-* greet
-    - utter_greet
+## Generated Story 9131006454295292872
+* thanks+goodbye
+    - utter_goodbye
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story 7564137591070403839
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -4220654900896524163
+## Generated Story 5135670526314084843
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -1086,10 +2642,6 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-
-## Generated Story 6821037452002120573
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1108,34 +2660,37 @@
     - action_slot_reset
 * greet
     - utter_greet
-
-## Generated Story -3464666475476328936
-* meetup
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
-* greet
-    - utter_greet
+* affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 2889010185845913064
+## Generated Story 2250299038520846015
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 9067101123155665587
-* thanks+goodbye
+    - action_slot_reset
+* goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 6642440638444332173
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1151,18 +2706,14 @@
 * thanks+goodbye
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 
-## Generated Story -3790242192025156742
+## Generated Story -8420241396122459675
+* meetup
+    - action_meetup
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
-
-## Generated Story -6654885877264779356
-* greet
-    - utter_greet
 * meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
     - slot{"type": "fitness"}
@@ -1176,6 +2727,10 @@
 * thanks+goodbye
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 1371698255254830725
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1186,36 +2741,39 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 3175992199398444375
-* thanks+goodbye
-    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
-    - utter_thanks
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 714078370526383890
+## Generated Story -3828926467740517001
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -1230,23 +2788,21 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
-    - utter_thanks
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 4660103078572456112
+## Generated Story -3658032715298534741
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1255,27 +2811,29 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -1375633357263800411
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1289,9 +2847,12 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -9000978502637536803
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1302,122 +2863,116 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -6091189160060615191
-* meetup
-    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
-    - utter_thanks
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -731300046576734277
-* goodbye
-    - utter_goodbye
+## Generated Story 602952379117113503
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 2989345976536345219
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
 * affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
-    - utter_thanks
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 4583891648964949661
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -2443841865567783257
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
-    - utter_thanks
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -104843134677182103
-* greet
-    - utter_greet
+## Generated Story -1784537499746855675
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1426,17 +2981,28 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
+    - action_meetup
 * affirm
+    - action_join_meetup
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
-    - utter_thanks
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 7482408794339142625
+## Generated Story 5764770363231626920
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1447,6 +3013,7 @@
     - action_join_meetup
 * goodbye
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1463,41 +3030,30 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 5197037823869104857
+## Generated Story 9058570620557692586
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* deny
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 611449141571362182
-* greet
-    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1514,9 +3070,11 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 4030065303564393674
+## Generated Story 6681501782918916422
 * greet
     - utter_greet
+* greet
+    - utter_greet
 * meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
     - slot{"type": "fitness"}
@@ -1528,7 +3086,6 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -1547,7 +3104,7 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -1966763788895162432
+## Generated Story 5200397780795169085
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1558,13 +3115,15 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1581,7 +3140,9 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 596831606698709205
+## Generated Story -7520907463546739277
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1590,6 +3151,7 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1606,7 +3168,7 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -1689033514961832961
+## Generated Story 5877487510515317459
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -1615,29 +3177,23 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* goodbye
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 5244902177942651008
-* thanks+goodbye
-    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1654,9 +3210,7 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 5998965293610024417
-* meetup
-    - action_meetup
+## Generated Story -7250686232100751169
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1672,39 +3226,23 @@
 * thanks+goodbye
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 3235325544471042192
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -1684068989086094810
-* meetup
-    - action_meetup
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story 8123770094266632813
-* goodbye
-    - utter_goodbye
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story -4247578178527525844
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1720,30 +3258,20 @@
 * thanks+goodbye
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story 1313710209083280343
-* greet
-    - utter_greet
-* thanks+goodbye
-    - utter_goodbye
 
-## Generated Story -2015931003983514344
+## Generated Story 3130913073537224295
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story -5593078844942033688
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1751,11 +3279,8 @@
     - slot{"type": "sports"}
     - action_meetup
 * deny
-    - utter_goodbye
-* thanks+goodbye
     - utter_goodbye
-
-## Generated Story 3985212982790513669
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1769,29 +3294,12 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
 
-## Generated Story -9155622710708929946
+## Generated Story -341375427715462665
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story 535820719403960604
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1802,51 +3310,30 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story 1000643765359383465
-* thanks+goodbye
-    - utter_goodbye
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story 2096823974877110178
-* thanks+goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6902648863953765109
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 6397764501488620318
+## Generated Story -7877271896427847665
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -1855,36 +3342,14 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8268373536432010341
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
 * goodbye
     - utter_goodbye
-
-## Generated Story -2384732593333899440
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -1895,47 +3360,17 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
 
-## Generated Story 9039030571609923767
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
+## Generated Story 7454556134606903794
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8343394981590789996
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -1959,17 +3394,35 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -4762117111745695827
+## Generated Story -7834990053121461930
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
     - utter_goodbye
 * greet
     - utter_greet
@@ -1979,40 +3432,28 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-
-## Generated Story -751496806093270309
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
-    - action_meetup
 * affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 6606405444383429958
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
+* deny
     - utter_goodbye
-
-## Generated Story 85624937315766787
-* meetup
-    - action_meetup
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2021,25 +3462,40 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 1353941899824284028
+## Generated Story -8018812988592531775
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -6003829716803518928
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -2057,22 +3513,21 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 7379572107849388756
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2081,78 +3536,64 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
-    - action_meetup
 * affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 8521040487104780244
+## Generated Story 3703584935746998035
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -7001055965203652560
+## Generated Story 5768575833229207934
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2163,8 +3604,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -2172,24 +3613,25 @@
     - action_slot_reset
 * greet
     - utter_greet
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -8274023739823253201
+## Generated Story 5090649687985704960
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2200,136 +3642,132 @@
     - action_join_meetup
 * goodbye
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 1577474638044782766
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -4901695679819811422
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -9220974183434066614
-* greet
-    - utter_greet
+## Generated Story -9009064700422455124
 * greet
     - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -322224783078530824
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -6408252581310188070
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 9185237602981246687
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2338,6 +3776,17 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -2203473856184000167
 * goodbye
     - utter_goodbye
 * greet
@@ -2346,83 +3795,108 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -5767863572578617639
+## Generated Story -1653961378517588305
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
+
+## Generated Story 8896513732213760305
+* meetup
+    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 5536322380166541756
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -1547013693059835693
+## Generated Story 4642210487642027887
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -2453,147 +3927,138 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 3520279306265151029
+## Generated Story -6704733430033187555
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -3375649736898745332
-* thanks+goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
+## Generated Story -8667481938404855728
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -3158242692787199440
-* meetup
-    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 4395934698543955791
+## Generated Story -5004553836741250096
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -5050767446921561119
-* meetup
-    - action_meetup
+## Generated Story 4618226233845879074
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2601,47 +4066,20 @@
     - slot{"type": "sports"}
     - action_meetup
 * deny
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 209117838670219202
-* goodbye
-    - utter_goodbye
-* meetup
-    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -7349342885062970216
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2652,13 +4090,15 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -4909135835244587905
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -2673,22 +4113,13 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 6699542459425472545
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -2702,8 +4133,13 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 7861245238518194180
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2714,8 +4150,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -2738,26 +4174,21 @@
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -1206749452934536056
+## Generated Story -834865121623605230
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -2770,8 +4201,6 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -6401812769142413944
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -2788,8 +4217,8 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
+
+## Generated Story -4966556213301570048
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -2798,12 +4227,12 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 4672169369770684459
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2813,37 +4242,8 @@
 * affirm
     - action_join_meetup
 * goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -691712216914086015
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -2857,33 +4257,22 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -2667344629577116821
+## Generated Story -262932608198537305
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -2899,59 +4288,48 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 3289845887487812670
-* thanks+goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
+## Generated Story -1421312752430551722
 * greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 9209624349333213346
-* greet
-    - utter_greet
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -3479820968010694867
+## Generated Story -7540186832816039472
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -2960,8 +4338,7 @@
     - action_meetup
 * deny
     - utter_goodbye
-* greet
-    - utter_greet
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -2974,25 +4351,24 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -5252275741772850615
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
     - action_suggest_route
-* thanks
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 8287241760967047861
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -3001,62 +4377,69 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -6522691488859807814
+## Generated Story -5039155663636458473
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
-    - utter_thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 335183082371548409
-* meetup
-    - action_meetup
+## Generated Story 2041128830707694486
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -3067,27 +4450,13 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 5889299708817507830
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3101,10 +4470,11 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
+
+## Generated Story 8541566619148998279
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -3117,8 +4487,6 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -2099005618102834085
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3132,6 +4500,7 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -3147,6 +4516,26 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 7400391142372294783
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -3157,74 +4546,89 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -4519065387398546989
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -5682344931062114196
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 3771556468376190912
-* goodbye
-    - utter_goodbye
-* meetup
-    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -7533431334844913717
-* greet
-    - utter_greet
-* greet
-    - utter_greet
+## Generated Story 1939125867506858698
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -464884349318845461
+## Generated Story 6238526613192079695
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3250,8 +4654,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -3259,18 +4663,35 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
+* meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
-    - slot{"type": "tech"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -4385003038296919029
+## Generated Story -8233085594227286204
+* meetup
+    - action_meetup
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3287,6 +4708,12 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 3332872635249020291
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3303,22 +4730,19 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -70498944785431872
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -2768155258359436596
-* greet
-    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3335,6 +4759,8 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 3164156165449390587
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -3347,18 +4773,6 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 267280434980976222
-* meetup
-    - action_meetup
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -3371,8 +4785,6 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -22865159155396979
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3386,37 +4798,20 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-* meetup
-    - action_meetup
 
-## Generated Story -6892374512443908892
+## Generated Story 9084011298923915014
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
-* greet
-    - utter_greet
-* meetup
     - action_meetup
-
-## Generated Story -7864234942237275752
+* deny
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -3425,6 +4820,8 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
@@ -3445,18 +4842,8 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story 8499191045005810010
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* meetup
-    - action_meetup
 
-## Generated Story 83941500747790722
+## Generated Story -8107285224568973443
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -3465,60 +4852,43 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
 * affirm
-    - action_join_meetup
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story -1112952510130157087
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
 
-## Generated Story -7152915803236585668
-* meetup
-    - action_meetup
+## Generated Story 3525135666265861068
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -3527,64 +4897,66 @@
     - action_meetup
 * deny
     - utter_goodbye
-* meetup
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-
-## Generated Story -6106945014919396382
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -2830066714138327230
 * goodbye
     - utter_goodbye
-* meetup
-    - action_meetup
-
-## Generated Story 143259185884093773
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
 
-## Generated Story 2992875836531212483
+## Generated Story -6545505609786706456
 * greet
     - utter_greet
+* greet
+    - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
@@ -3593,8 +4965,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -3612,99 +4984,62 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
 
-## Generated Story 212917744613233517
-* goodbye
-    - utter_goodbye
-* meetup
-    - action_meetup
-* meetup
-    - action_meetup
-
-## Generated Story 2544093954451754579
-* meetup
-    - action_meetup
+## Generated Story -5434336340492294528
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story -8535021319216542083
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-* meetup
-    - action_meetup
-
-## Generated Story 9069139934563839719
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
-* greet
-    - utter_greet
-* meetup
-    - action_meetup
+    - action_slot_reset
 
-## Generated Story 8027839376121370125
-* greet
-    - utter_greet
+## Generated Story -9046473460995659523
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story 4363164866110321054
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -3715,77 +5050,73 @@
     - action_join_meetup
 * goodbye
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -4807165380946304019
 * meetup
     - action_meetup
-
-## Generated Story 9197029390073915774
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
 
-## Generated Story 6699890773679368199
-* thanks+goodbye
+## Generated Story 6515105332930962650
+* goodbye
     - utter_goodbye
 * greet
     - utter_greet
-* meetup
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-
-## Generated Story 2119201667922125981
-* greet
-    - utter_greet
-* goodbye
+* deny
     - utter_goodbye
-* meetup
-    - action_meetup
-
-## Generated Story -2190129627014737263
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 3507864755007741037
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -3796,40 +5127,31 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* meetup
-    - action_meetup
-
-## Generated Story 899660733561760372
-* thanks+goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
 * goodbye
     - utter_goodbye
-
-## Generated Story 7931253141112538671
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -8294568576346861859
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3845,20 +5167,20 @@
 * thanks+goodbye
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
-
-## Generated Story -499120639184025302
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1688270490565133995
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -3866,59 +5188,34 @@
     - slot{"type": "sports"}
     - action_meetup
 * deny
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3515857044253961968
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* goodbye
     - utter_goodbye
-
-## Generated Story -5508642146523184054
-* meetup
-    - action_meetup
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4331051956194492534
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 3075431905195074203
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -3931,10 +5228,6 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4685476874999615412
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -3953,100 +5246,75 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
 
-## Generated Story 6487614112356814941
+## Generated Story 363828383073611753
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -3641966310152435342
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
 
-## Generated Story -4864622887159740919
+## Generated Story 2033954826584041226
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3086103210177268157
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8882649442572931136
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
+* deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -4059,70 +5327,50 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
 
-## Generated Story -2466248288589932942
+## Generated Story 7043221040918534054
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1850915978297366699
-* goodbye
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
-* meetup
-    - action_meetup
+    - action_slot_reset
 * goodbye
     - utter_goodbye
-
-## Generated Story -3971156842510699663
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
 
-## Generated Story 8015040106287391220
+## Generated Story 6053445471558467471
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
-    - utter_goodbye
-* greet
-    - utter_greet
-* goodbye
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story 3303039377242319315
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -4137,38 +5385,51 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -8454329644331324289
 * goodbye
     - utter_goodbye
-
-## Generated Story 3197994069914375278
-* meetup
-    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
-* goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -4301465315452598716
+## Generated Story 2278636326278337374
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -4184,40 +5445,39 @@
 * thanks+goodbye
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -373270949149340768
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* goodbye
-    - utter_goodbye
 
-## Generated Story -742071335360523722
+## Generated Story 9138596830075376903
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4228,8 +5488,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -4237,59 +5497,72 @@
     - action_slot_reset
 * greet
     - utter_greet
-* goodbye
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -3074759714499547424
+## Generated Story 2960731079006709754
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
-* greet
-    - utter_greet
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 1853211244623291669
+## Generated Story -2688444557102645351
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
@@ -4299,19 +5572,28 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -1159575189819936698
-* meetup
-    - action_meetup
+## Generated Story 8166341011579891791
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
     - utter_goodbye
 * greet
     - utter_greet
@@ -4319,10 +5601,15 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 3370538454483005584
+## Generated Story 1174137790443885880
+* meetup
+    - action_meetup
 * meetup
     - action_meetup
 * greet
@@ -4333,54 +5620,45 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -6990484979452701653
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
-    - utter_goodbye
-
-## Generated Story -6242243862670282706
-* thanks+goodbye
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
-* greet
-    - utter_greet
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
-
-## Generated Story -4002255920573657975
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* goodbye
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -8461045838483996754
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4391,8 +5669,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -4404,62 +5682,65 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 4479805466831651189
+## Generated Story 9102447557886747277
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
-
-## Generated Story -2028560487068939924
-* greet
-    - utter_greet
-* greet
-    - utter_greet
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -6469928746968283583
+## Generated Story -3764790209024357678
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -4478,10 +5759,13 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -1790205278647261344
+## Generated Story 6523290237775309627
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4492,35 +5776,71 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -4425349751628942798
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -1241330881282670101
+* meetup
+    - action_meetup
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -7167910741835714086
+## Generated Story 1608073797783993457
 * greet
     - utter_greet
 * greet
@@ -4536,7 +5856,6 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -4545,10 +5864,13 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 6570988731209444587
+## Generated Story 329064318188280504
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -4583,18 +5905,13 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -8914506485971492852
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
+## Generated Story 8139886426816905987
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -4608,7 +5925,6 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -4617,24 +5933,32 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
-    - utter_goodbye
-
-## Generated Story -2398530809576498673
-* greet
-    - utter_greet
-* goodbye
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 1655603938230996238
+## Generated Story 715895534589735590
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4645,8 +5969,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -4654,6 +5978,17 @@
     - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1605332169435213165
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4662,39 +5997,36 @@
     - action_meetup
 * deny
     - utter_goodbye
-
-## Generated Story 9074725047756065021
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -3261769109146305324
+## Generated Story -3060257801944651882
 * goodbye
     - utter_goodbye
-* meetup
-    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4703,48 +6035,44 @@
     - action_meetup
 * deny
     - utter_goodbye
-
-## Generated Story -7449942185321800064
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* goodbye
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -2121238565198132764
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story 74036233110668587
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4755,6 +6083,9 @@
     - action_join_meetup
 * goodbye
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -4362345338024966010
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4763,16 +6094,19 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story -4560411402195831649
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4781,20 +6115,23 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
 * goodbye
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 4406108521275200287
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story 1312568421164280093
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4803,26 +6140,35 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -1802663597891553531
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 1553609322750060943
+## Generated Story -2885341216777100477
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -4848,19 +6194,13 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-
-## Generated Story 6973755667158961246
-* meetup
-    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4869,31 +6209,19 @@
     - action_meetup
 * deny
     - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -3531744807221906519
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* greet
-    - utter_greet
+    - action_slot_reset
 
-## Generated Story 5453889443426322386
+## Generated Story -8483571810195834670
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
@@ -4912,58 +6240,75 @@
     - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 8314127764579378224
-* greet
-    - utter_greet
+## Generated Story 7646391986150378824
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
-
-## Generated Story -6637316959269083243
-* goodbye
-    - utter_goodbye
-* meetup
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story -4086851010992654786
+## Generated Story 5397300018672487559
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* goodbye
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 9064979332123035774
+## Generated Story 3194736553499422757
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -4973,7 +6318,19 @@
 * affirm
     - action_join_meetup
 * goodbye
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 6640168056751956649
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -4988,52 +6345,26 @@
     - action_slot_reset
 * greet
     - utter_greet
-
-## Generated Story -3251029283202882994
-* meetup
-    - action_meetup
-* greet
-    - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-
-## Generated Story 5415856376405646348
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* deny
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
 
-## Generated Story 765846924382869833
+## Generated Story 8693270284475358428
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5042,8 +6373,15 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5051,19 +6389,12 @@
     - slot{"type": "sports"}
     - action_meetup
 * deny
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 6165248620005025175
-* thanks+goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
+    - action_slot_reset
 
-## Generated Story 2231643988804053118
+## Generated Story 1383822685827528255
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5072,14 +6403,9 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 1895492509148634479
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5088,34 +6414,39 @@
     - action_meetup
 * deny
     - utter_goodbye
-* greet
-    - utter_greet
+    - action_slot_reset
+
+## Generated Story 1609978889317693137
 * greet
     - utter_greet
-
-## Generated Story 1242147614441556023
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* greet
-    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 9220497094510337623
+## Generated Story 304177135113707998
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -5146,30 +6477,59 @@
     - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 5476272418139700485
+## Generated Story -5792527465720018022
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 3177581904863918557
+## Generated Story 1588578304132483800
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5180,8 +6540,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -5189,46 +6549,77 @@
     - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -7035604546060026948
 * greet
     - utter_greet
-
-## Generated Story 6030090462134137956
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -6619252526691527718
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 
-## Generated Story 5855106726716532371
+## Generated Story 877436601645505540
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5237,22 +6628,32 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -4126452898633693160
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5263,32 +6664,62 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -466518609089116742
+## Generated Story -1445161294635706502
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -1102327187386251345
 * greet
     - utter_greet
+* greet
+    - utter_greet
 * meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
     - slot{"type": "fitness"}
@@ -5308,21 +6739,15 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 1464103791379953685
+## Generated Story 2060024413166124378
 * meetup
     - action_meetup
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5331,44 +6756,61 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 2041031133298269596
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -1848926572117596863
 * meetup
     - action_meetup
+
+## Generated Story -4809389924375936391
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 6325048933943407366
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5379,28 +6821,49 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -6969631472755983381
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 8307068631040202534
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
+* meetup
+    - action_meetup
+
+## Generated Story -6266728803560449128
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -5409,17 +6872,15 @@
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story -8582187291306310282
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5428,85 +6889,53 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
 
-## Generated Story -4723927001353118703
+## Generated Story 5962178047183167513
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -2174494213728252241
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup
     - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
+
+## Generated Story 6122876072104034035
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 7527983936052735531
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -5520,9 +6949,14 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
+* meetup
+    - action_meetup
+
+## Generated Story -3138686865656318568
+* goodbye
     - utter_goodbye
 * greet
     - utter_greet
@@ -5532,33 +6966,46 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story -6877498760744557945
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
 
-## Generated Story -6057651881966557514
+## Generated Story 4371679661069950916
+* meetup
+    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 3323586810159388239
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -5572,9 +7019,14 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story -2732093818251948087
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5585,19 +7037,19 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 4056598040953477581
-* goodbye
-    - utter_goodbye
 * meetup
     - action_meetup
+
+## Generated Story 3234498258342185636
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5608,15 +7060,19 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
 
-## Generated Story 5870359583662019280
+## Generated Story -8510428893307453359
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5625,27 +7081,25 @@
     - action_meetup
 * deny
     - utter_goodbye
-* greet
-    - utter_greet
+    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story -7673820580794152177
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -3359794252004503504
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5655,19 +7109,12 @@
 * affirm
     - action_join_meetup
 * goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 1220791239482938579
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5678,27 +7125,19 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -2589752169816307879
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
-    - action_slot_reset
+* meetup
+    - action_meetup
+
+## Generated Story 1566404592967222754
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -5712,7 +7151,6 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -5725,81 +7163,69 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
 
-## Generated Story 3751687129496925185
+## Generated Story -3438676985170222573
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup
     - action_meetup
-* deny
-    - utter_goodbye
+
+## Generated Story -6897929221967349147
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 8236282483025989965
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* meetup
+    - action_meetup
 
-## Generated Story -3843237683428305106
-* thanks+goodbye
-    - utter_goodbye
+## Generated Story 5947397093416657150
 * greet
     - utter_greet
-* greet
-    - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
@@ -5808,75 +7234,45 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -7093830959101774887
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -1953265033291641443
-* greet
-    - utter_greet
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -1147530134222206170
+## Generated Story -5848413288981356884
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5887,34 +7283,31 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -6382758634138309661
+## Generated Story -3421584970387157744
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5923,13 +7316,7 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -5940,10 +7327,14 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story 7647580641080558551
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -5954,36 +7345,51 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 304003053977570114
-* thanks+goodbye
+* goodbye
     - utter_goodbye
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 3391837329679530986
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 1229511046830012733
+## Generated Story 4363251806797564317
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -6009,8 +7415,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -6018,55 +7424,42 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -5337312195823986078
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
+## Generated Story -2214846236140176519
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -8852645964449267723
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
@@ -6079,27 +7472,26 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -8097908911718968616
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -7516761538531694355
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -6116,154 +7508,191 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 7320975814402730287
+## Generated Story 990497187621152990
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story 1354071873461249066
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 6550635123236894616
+## Generated Story 2246914341587247577
 * greet
     - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 6101305041355471291
+## Generated Story 2923277447523698996
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 1801882106777578686
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+## Generated Story 365500755319779422
+* meetup
     - action_meetup
-* deny
+* goodbye
     - utter_goodbye
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+
+## Generated Story -3707728337087110812
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 7611453310236839730
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -6273,166 +7702,136 @@
 * affirm
     - action_join_meetup
 * goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -8229083532622473726
+## Generated Story -2136608415971004025
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-* goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story -4713289291480046998
-* goodbye
-    - utter_goodbye
-* meetup
-    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 4367585308705478543
+## Generated Story -2144296020527744211
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 8404824584917334791
-* greet
-    - utter_greet
+## Generated Story 1895734503752720416
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -4188975074841102172
+## Generated Story 4769786007932767195
 * meetup
     - action_meetup
 * greet
@@ -6445,8 +7844,8 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
@@ -6454,21 +7853,20 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story -3796525327846751052
+## Generated Story 7762231823671224710
 * meetup
     - action_meetup
 * greet
@@ -6476,26 +7874,12 @@
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* goodbye
     - utter_goodbye
     - action_slot_reset
-
-## Generated Story 7965980230169106714
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -6504,10 +7888,16 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+
+## Generated Story -9047286693747046558
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -6521,26 +7911,26 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 
-## Generated Story 5571156427854865283
+## Generated Story 1675902139456778432
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -6549,39 +7939,77 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+
+## Generated Story 371433398661216906
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+
+## Generated Story -7420826248876465607
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 2323606031014862651
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
 
-## Generated Story 8930579252931230789
+## Generated Story 377255207344859275
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -6592,32 +8020,62 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
+
+## Generated Story 2768844742878874991
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* goodbye
     - utter_goodbye
     - action_slot_reset
+* greet
+    - utter_greet
 
-## Generated Story -3868704089216195228
+## Generated Story -7284193103105128441
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -6626,8 +8084,19 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+
+## Generated Story -6114505321857462017
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -6653,122 +8122,116 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* greet
+    - utter_greet
+
+## Generated Story 7922301567438988042
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
 
-## Generated Story -5505338656253792246
+## Generated Story 6217805896133188056
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
+* greet
+    - utter_greet
 
-## Generated Story 5742882635951353340
+## Generated Story -8917047020311278813
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story 1992285252119037675
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
-* deny
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* thanks+goodbye
-    - utter_goodbye
 
-## Generated Story -5659274981206057161
+## Generated Story -4399552489784446288
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
+* greet
+    - utter_greet
 
-## Generated Story -5252791646909714583
+## Generated Story 4348542858098855917
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -6776,21 +8239,14 @@
     - slot{"type": "sports"}
     - action_meetup
 * deny
-    - utter_goodbye
-* thanks+goodbye
     - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
 
-## Generated Story -4459308383522107600
+## Generated Story 1450467142864663735
 * goodbye
-    - utter_goodbye
-* meetup
-    - action_meetup
-* thanks+goodbye
     - utter_goodbye
-
-## Generated Story -2913975139428153513
-* meetup
-    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -6801,57 +8257,26 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
-    - utter_thanks
-    - utter_goodbye
-    - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story -4782194610948931939
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
-    - action_meetup
-* affirm
-    - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story -4852129643933154413
 * greet
     - utter_greet
-* goodbye
-    - utter_goodbye
-* thanks+goodbye
-    - utter_goodbye
 
-## Generated Story 4581958821391254220
+## Generated Story -1860746373176930063
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
+* deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -6860,36 +8285,24 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story -278283544179847406
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* thanks+goodbye
-    - utter_goodbye
 
-## Generated Story 6030531811144459122
+## Generated Story -7375210941156405986
+* meetup
+    - action_meetup
 * meetup
     - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
-* thanks+goodbye
-    - utter_goodbye
 
-## Generated Story 9140039708426026060
+## Generated Story 7390763303418222662
 * greet
     - utter_greet
 * greet
@@ -6905,13 +8318,12 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
+* greet
+    - utter_greet
 
-## Generated Story -6100327239115332867
+## Generated Story 3104306781285799510
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -6929,91 +8341,102 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
+* greet
+    - utter_greet
 
-## Generated Story 6657014889011085017
+## Generated Story -8671480942847193986
+* meetup
+    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* thanks
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+
+## Generated Story -3092229131361050151
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
+* greet
+    - utter_greet
+
+## Generated Story 4813790072668330615
+* meetup
+    - action_meetup
+* meetup
+    - action_meetup
+* goodbye
     - utter_goodbye
 
-## Generated Story -3023636443058130317
+## Generated Story 6201181023739788583
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
-    - action_meetup
-* deny
-    - utter_goodbye
-* greet
-    - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
+* goodbye
     - utter_goodbye
 
-## Generated Story 3796352631961112093
-* thanks+goodbye
-    - utter_goodbye
+## Generated Story -6895759271831772717
 * greet
     - utter_greet
-* thanks+goodbye
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story -3974350923785656529
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -7027,31 +8450,48 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
+* goodbye
     - utter_goodbye
-* thanks+goodbye
+
+## Generated Story 3137099584287131038
+* meetup
+    - action_meetup
+* goodbye
+    - utter_goodbye
+* goodbye
     - utter_goodbye
 
-## Generated Story -4651110948181652058
+## Generated Story -7063788190766906707
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8823518192877745635
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -7064,33 +8504,21 @@
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
-
-## Generated Story -5315400608968195822
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
-* thanks
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-* thanks+goodbye
+* goodbye
     - utter_goodbye
 
-## Generated Story 8323093059940065610
+## Generated Story 7949819853153355261
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7101,8 +8529,11 @@
     - action_join_meetup
 * goodbye
     - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
+
+## Generated Story 1014036993340663575
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7111,10 +8542,21 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
+* goodbye
+    - utter_goodbye
 
-## Generated Story 6389698161763041234
+## Generated Story -8812388637948166761
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -7132,31 +8574,42 @@
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1864206349165075545
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
 
-## Generated Story -4029879084085803333
+## Generated Story 2912021745769907220
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7167,13 +8620,17 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6110067550874614175
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -7182,6 +8639,8 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
@@ -7194,42 +8653,54 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
 
-## Generated Story -7110351126834762707
-* greet
-    - utter_greet
+## Generated Story 8322851230405550817
+* meetup
+    - action_meetup
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
-    - utter_thanks
+* goodbye
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7457665497329438676
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
 * goodbye
     - utter_goodbye
 
-## Generated Story 4215262148043793143
+## Generated Story -6846034397470451705
 * greet
     - utter_greet
+* greet
+    - utter_greet
 * meetup{"location": "London", "type": "fitness"}
     - slot{"location": "London"}
     - slot{"type": "fitness"}
@@ -7241,23 +8712,40 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4690851988154498757
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
 
-## Generated Story -6387464820153154686
+## Generated Story -4662903981653767737
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7268,43 +8756,86 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
 
-## Generated Story -1479432686168515452
-* goodbye
+## Generated Story -2814252154315621565
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
-* meetup
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 180865303453051676
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
+    - action_meetup
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* greet
+    - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * goodbye
     - utter_goodbye
 
-## Generated Story 1158371994064035911
+## Generated Story 822711679718138004
 * meetup
     - action_meetup
 * greet
@@ -7317,13 +8848,19 @@
     - action_join_meetup
 * affirm
     - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4621418639605736068
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7332,12 +8869,19 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story -7770223303335810748
+    - action_slot_reset
 * thanks+goodbye
     - utter_goodbye
+
+## Generated Story -6628699380463538202
 * greet
     - utter_greet
 * greet
@@ -7348,14 +8892,21 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story 7067504707914694669
-* greet
-    - utter_greet
-* goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
+
+## Generated Story 6885376403022909159
+* meetup
+    - action_meetup
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7365,13 +8916,26 @@
 * affirm
     - action_join_meetup
 * goodbye
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story -3131743015729861287
-* greet
-    - utter_greet
+## Generated Story -322195687160207075
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7380,56 +8944,64 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* goodbye
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story -3619836009691540104
+* meetup
+    - action_meetup
 * goodbye
+    - utter_goodbye
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story -1795718770311574222
+## Generated Story 1520100836227431440
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story -2637543786042749031
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* affirm
-    - action_join_meetup
 * goodbye
+    - utter_goodbye
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story -4818100591844177998
-* meetup
-    - action_meetup
+## Generated Story -403301897853899496
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7438,91 +9010,101 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story -6252233576474253484
+## Generated Story 241711375136704829
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
+* meetup{"location": "London", "type": "tech"}
     - slot{"location": "London"}
-    - slot{"type": "fitness"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
-    - action_join_event
-    - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
-* thanks+goodbye
-    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
     - slot{"location": "Berlin"}
     - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* goodbye
+* deny
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story 4722289801812135357
+## Generated Story 3409543988690046010
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "fitness"}
-    - slot{"location": "London"}
-    - slot{"type": "fitness"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm+ask_transport{"origin": "Baker Street"}
-    - slot{"origin": "Baker Street"}
+* affirm
     - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
     - action_suggest_route
-* thanks+goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* goodbye
+    - utter_goodbye
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story 3891470846191607299
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* affirm
-    - action_join_event
-* ask_transport{"origin": "Alexanderplatz"}
-    - slot{"origin": "Alexanderplatz"}
-    - action_suggest_route
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story -5471671382605954718
+## Generated Story 8345110704234525971
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7531,8 +9113,15 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "tech"}
@@ -7541,10 +9130,18 @@
     - action_meetup
 * affirm
     - action_join_meetup
+* affirm
+    - action_join_event
 * thanks
     - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story -9109707741671804348
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7554,21 +9151,29 @@
 * affirm
     - action_join_meetup
 * goodbye
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story -8998245842155374074
+## Generated Story 5650865147523555835
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* meetup{"location": "London", "type": "tech"}
-    - slot{"location": "London"}
-    - slot{"type": "tech"}
+* meetup{"location": "Berlin", "type": "sports"}
+    - slot{"location": "Berlin"}
+    - slot{"type": "sports"}
     - action_meetup
-* affirm
-    - action_join_meetup
-* thanks
-    - utter_thanks
+* deny
     - utter_goodbye
     - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story -3363784067779219445
+* greet
+    - utter_greet
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -7582,31 +9187,42 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
+* thanks+goodbye
+    - utter_goodbye
+
+## Generated Story 1601075543055303121
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story 7125394960544537494
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
+
+## Generated Story -6662852835146486857
 * greet
     - utter_greet
 * meetup{"location": "Berlin", "type": "sports"}
@@ -7615,26 +9231,23 @@
     - action_meetup
 * deny
     - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* thanks
+    - utter_thanks
     - utter_goodbye
-
-## Generated Story -9093597169390170719
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
-    - action_meetup
-* deny
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
+
+## Generated Story -4603801955763796762
 * greet
     - utter_greet
 * meetup{"location": "London", "type": "fitness"}
@@ -7648,7 +9261,6 @@
     - action_join_event
     - action_suggest_route
 * thanks+goodbye
-    - utter_thanks
     - utter_goodbye
     - action_slot_reset
 * greet
@@ -7659,28 +9271,55 @@
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm
+    - action_join_event
+* ask_transport{"origin": "Rasa Technologies GmbH"}
+    - slot{"origin": "Rasa Technologies GmbH"}
+    - action_suggest_route
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
 
-## Generated Story 6695406213846696211
-* greet
-    - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+## Generated Story -8442584546417141533
+* meetup
     - action_meetup
-* deny
+* meetup
+    - action_meetup
+* thanks+goodbye
     - utter_goodbye
+
+## Generated Story -6712401725451913163
 * greet
     - utter_greet
+* meetup{"location": "London", "type": "tech"}
+    - slot{"location": "London"}
+    - slot{"type": "tech"}
+    - action_meetup
+* affirm
+    - action_join_meetup
+* thanks
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
 * greet
     - utter_greet
-* meetup{"location": "Berlin", "type": "sports"}
-    - slot{"location": "Berlin"}
-    - slot{"type": "sports"}
+* meetup{"location": "London", "type": "fitness"}
+    - slot{"location": "London"}
+    - slot{"type": "fitness"}
     - action_meetup
 * affirm
     - action_join_meetup
-* goodbye
+* affirm+ask_transport{"origin": "Baker Street"}
+    - slot{"origin": "Baker Street"}
+    - action_join_event
+    - action_suggest_route
+* thanks+goodbye
+    - utter_thanks
+    - utter_goodbye
+    - action_slot_reset
+* thanks+goodbye
     - utter_goodbye
 

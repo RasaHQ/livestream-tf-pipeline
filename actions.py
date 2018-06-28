@@ -79,7 +79,7 @@ class ActionJoinEvent(Action):
 			dispatcher.utter_message("All done. I have booked you a spot at the event {} which is happening at {}".format(event_name, event_time))
 			return [SlotSet('lon', lon), SlotSet('lat', lat)]
 			
-		except KeyError:
+		except (KeyError, UnboundLocalError) as e:
 			dispatcher.utter_message("All done. I have booked you a spot at the event {} which is happening at {}".format(event_name, event_time))
 			return [SlotSet('lon', ''), SlotSet('lat', '')]
 

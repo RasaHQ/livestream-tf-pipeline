@@ -3,8 +3,8 @@
     "action_listen": {
       "slots": [
         "location",
-        "origin",
-        "type"
+        "type",
+        "origin"
       ]
     },
     "action_slot_reset": {
@@ -13,10 +13,10 @@
     "action_meetup": {
       "slots": []
     },
-    "utter_goodbye": {
+    "utter_greet": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_goodbye": {
       "slots": []
     }
   },
