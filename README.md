@@ -18,8 +18,8 @@ Bot: Bye bye.
 
 ```
 
-The chatbot includes live data APIs. In order to access the data yourself, you will need to get the API keys and store them as environmental variables. Below are instructions of how to do it:
-1. Meetup API:
+The chatbot includes live data APIs. In order to access the data yourself, you will need to get the API keys and store them as environmental variables. Below are instructions on how to do it:
+1. **Meetup API:**
 	1. Get the API key [here](https://secure.meetup.com/meetup_api/key/)
 	2. Copy the key, open your command line and execute:
 		* Ubuntu and Mac OS:
@@ -31,7 +31,7 @@ The chatbot includes live data APIs. In order to access the data yourself, you w
 			set MEETUP_KEY=*your_api_key* 
 			```
 
-1. Google Directions API:
+1. **Google Directions API:**
 	1. Get the API key by following the instructions written in a section [Activate the API and get an API key](https://developers.google.com/maps/documentation/directions/start)
 	2. Copy the key and in your command line execute:
 		* Ubuntu and Mac OS:
@@ -60,7 +60,7 @@ python -m spacy download en
 ```
 3. Watch the stream and implement a bot from scratch by using the code inside the directory called 'Stream_Code'.
 
-4. You can load and chat with the bot at any time by executing the following command from the main directory of this repository (don't forget to set the API keys):
+4. You can load and chat with the bot at any time by executing the following command inside the main directory of this repository (don't forget to set the API keys):
 ```
 python -m rasa_core.run -d models/current/dialogue -u models/current/nlu_model
 ```
