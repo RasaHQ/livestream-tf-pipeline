@@ -1,6 +1,6 @@
 # [Twitch Stream] Building a Meetup chatbot using Rasa Stack
 
-In release 0.12, Rasa introduced a new TensorFlow-based pipeline for NLU models. This repository contains the code which was used during our Twitch live coding stream on 28/06/2018. During the stream we built a Meetup chatbot, capable of recommending meetups to attend, make RSVPs for the events and recommend public transport routes to get to the venue. The goal of building this chatbot is to demonstrate how we can use Rasa NLU TensorFlow pipeline to build intelligent chatbots which can understand multiple intents per input. The recording of the stream can be found ([here](https://www.twitch.tv/videos/279105616).
+In release 0.12, Rasa introduced a new TensorFlow-based pipeline for NLU models. This repository contains the code which was used during our Twitch live coding stream on 28/06/2018. During the stream we built a Meetup chatbot, capable of recommending meetups to attend, make RSVPs for the events and recommend public transport routes to get to the venue. The goal of building this chatbot is to demonstrate how we can use Rasa NLU TensorFlow pipeline to build intelligent chatbots which can understand multiple intents per input. The recording of the stream can be found [here](https://www.twitch.tv/videos/279105616).
 
 
 ```text
