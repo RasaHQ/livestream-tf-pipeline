@@ -72,5 +72,5 @@ python -m rasa_core.run -d models/current/dialogue -u models/current/nlu_model
 * [Supervised Word Vectors from Scratch in Rasa NLU](https://medium.com/rasa-blog/supervised-word-vectors-from-scratch-in-rasa-nlu-6daf794efcd8) - Rasa blog post on the new TensorFlow pipeline.
 * [How to handle multiple intents per input using Rasa NLU TensorFlow pipeline](https://medium.com/rasa-blog/how-to-handle-multiple-intents-per-input-using-rasa-nlu-tensorflow-pipeline-75698b49c383) - A step-by-step tutorial on how to build chatbots using Rasa NLU TensorFlow pipeline.
 * [Docs: Processing Pipeline](https://nlu.rasa.com/pipeline.html) - Official Rasa documentation on processing pipelines.
-* [Rasa NLU Gitter](https://gitter.im/RasaHQ/rasa_nlu) and [Rasa Core Gitter](https://gitter.im/RasaHQ/rasa_core) - Places where Rasa community hangs out.
+* [Rasa Community Forum](https://forum.rasa.com) - A place where the Rasa community meets.
 
